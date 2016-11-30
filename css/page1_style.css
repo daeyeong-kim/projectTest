@@ -1,0 +1,141 @@
+body {
+}
+
+#topbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: #2196f3;
+    position: fixed;
+    z-index: 99999;
+}
+
+#topbar h1 {
+    font: 200%/1 'Mandali', sans-serif;
+    color: #ffffff;
+    letter-spacing: 20px;
+    margin-left: 20px;
+    text-shadow: 0px 2px 1px #01232b;
+}
+
+#topbar span {
+    cursor: pointer;
+}
+
+#topbar span img {
+    width: 35px;
+    padding: 0 5px;
+}
+
+.top_home {}
+
+#header {
+    z-index: 10;
+    position: relative;;
+    top: 40px;
+}
+
+#header h2 {
+    /* background-clip: text;
+    text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent; */
+    /* animation: example 10s infinite linear;
+    animation-name: example; */
+}
+
+@keyframes example {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(-360deg);
+    }
+}
+
+#header h2 {
+    font-weight: 100;;
+    font: 320%/2.5 "Roboto", Verdana, sans-serif;
+    color: #0296b7;
+}
+
+#header strong {
+    font: 140%/0 "Roboto", Verdana, sans-serif;
+    display: block;
+}
+
+#login {
+    transition: All 0.7s ease;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+#login input{
+    display: block;
+    color: #002a33;
+    padding: 15px 0;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 9px auto;
+    border-bottom: 2px solid  #2196f3;
+    font-weight: 800;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    text-align: left;
+    text-indent: 3px;
+}
+
+#login input:focus
+{
+    border-bottom: 2px solid #07d2ff;
+}
+
+#login input[type="checkbox"] {
+    width: 24px;
+    height: 43px;
+    position: relative;
+    left: -26px;
+}
+
+#login label {
+    font-size: 1.9em;
+    color: #757575;
+    top: -48px;
+    left: 19px;
+    position: relative;;
+}
+#login button{
+    margin: 15px auto;}
+
+#login_btn {}
+
+.btn {
+    padding: 15px 0;
+    font-size: 1.3em;
+    color: white;
+    display: block;
+    width: 90%;
+    cursor: pointer;
+    background-color: #2196f3;
+    border: none;
+    margin: 40px auto;
+}
+
+.btn:active {
+    background-color: #024f61
+}

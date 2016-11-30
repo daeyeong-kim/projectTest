@@ -1,0 +1,30 @@
+/* @import url("../bootstrap/css/bootstrap.min.css");
+@import url("../bootstrap/css/bootstrap-theme.min.css"); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Mandali|Roboto:100|Rubik+Mono+One');
+@charset "utf-8";
+/* CSS Reset */
+*{font-family:'돋움', sans-serif; font-size:12px;text-align: center;font-family: sans-serif;}
+/* base */
+body,input,textarea,select,button,table{color:#333;outline: none}
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6,em{font-weight:normal; font-style: normal}
+ul,ol{list-style:none;}
+fieldset,img{border:0; vertical-align:top}
+address{font-style:normal}
+/* a-style */
+a{color:#333;text-decoration:none}
+a:hover,a:active,a:focus{color:#333;text-decoration:none}
+a:hover{color:#ffcc00}
+/* a-style */
+/*-- 블록 설정 색상 start--*/
+::-moz-selection{background: #ffcc00;color: #ffffff}
+::selection{background: #ffcc00;color: #ffffff}
+/*--블록 설정 색상 end--*/
+article{margin: 40px 0 0 0}
+input[type="text"]:focus {
+    border-bottom: 2px solid #07d2ff;
+}
+input[type="password"]:focus {
+    border-bottom: 2px solid #07d2ff;
+}
